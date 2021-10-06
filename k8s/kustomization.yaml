@@ -7,6 +7,9 @@ resources:
 namespace: goapp
 
 images:
+- name: goapp
+  newName: johnathanalves/argocd
+  newTag: a4cc4458017ee12d7b942ab1b92c54f541c942d3
 - name: johnathanalves/argocd
   newName: goapp
   newTag: v1
